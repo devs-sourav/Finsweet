@@ -1,0 +1,1026 @@
+/* ======================================================
+                Common CSS Start Here
+====================================================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/* ======================================================
+                Common CSS End Here
+====================================================== */
+
+/* ======================================================
+                Navbar CSS Start Here
+====================================================== */
+#navbar{
+    padding: 16px 0;
+    background: #1C1E53;
+}
+#navbar .nav_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_list{
+    display: flex;
+    column-gap: 32px;
+}
+.menu_list li a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    color: #BBBBCB;
+    transition: all linear 0.2s;
+}
+.menu_list li a:hover{
+    color: #fff;
+}
+.menu_wrap{
+    display: flex;
+    column-gap: 48px;
+    align-items: center;
+}
+.menu_wrap .btn a{
+    padding: 16px 48px;
+    border-radius: 41px;
+    border: 1px solid #F4F6FC;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    color: #fff;
+    transition: all linear 0.3s;
+}
+.menu_wrap .btn a:hover{
+    background: #fff;
+    color: #1C1E53;
+}
+/* ======================================================
+                Navbar CSS End Here
+====================================================== */
+
+
+/* ======================================================
+                Banner CSS Start Here
+====================================================== */
+#banner{
+    padding: 128px 0;
+    background: #1C1E53;
+}
+.ban_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ban_left h2{
+    font-size: 54px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 74px;
+    color: #fff;
+    width: 582px;
+}
+.ban_left p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    color: #BBBBCB;
+    width: 562px;
+    margin-top: 24px;
+}
+.ban_left .btn{
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    column-gap: 40px;
+}
+.top_gap{
+    margin-top: 48px;
+}
+.btn .btn_work{
+    padding: 16px 56px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+    line-height: 32px;
+    color: #1B1C2B;
+    background: #FCD980;
+    border-radius: 41px;
+    transition: all linear 0.2s;
+}
+.btn .btn_work:hover{
+    background: #fff;
+    color: #1C1E53;
+}
+.btn .btn_price{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    color: #fff;
+    transition: all linear 0.2s;
+}
+.btn .btn_price:hover{
+    color:#FCD980 ;
+    letter-spacing: 0.4px;
+}
+.btn .btn_price:hover i{
+    transform: translateX(3px);
+    color: #FCD980;
+}
+.btn_price i{
+    color: #fff;
+    margin-left: 13px;
+    transition: all linear 0.2s;
+}
+.ban_right{
+    width: 638px;
+    height: 362px;
+}
+.ban_right img{
+    width: 100%;
+    height: 100%;
+}
+/* ======================================================
+                Banner CSS End Here
+====================================================== */
+
+/* ======================================================
+                Work Part CSS Start Here
+====================================================== */
+#work{
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+
+.header h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 64px;
+    color: #282938;
+}
+.work_wrapper{
+    display: flex;
+    column-gap: 142px;
+}
+.work_left p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    color: #656773;
+    margin-top: 16px;
+    width: 405px;
+}
+.work_left .btn .btn_price{
+    color: #2405F2;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.work_left .btn .btn_price i{
+    color: #2405F2;
+}
+
+.work_right{
+    width: 656px;
+    display: flex;
+    row-gap: 48px;
+    flex-wrap: wrap;
+}
+.work_item{
+    width: 50%;
+}
+.work_img{
+    width: 50px;
+    height: 50px;
+}
+.work_img img{
+    width: 100%;
+    height: 100%;
+}
+.work_text a{
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 500;
+    margin-top: 16px;
+    transition: all linear 0.2s;
+
+}
+.work_item:hover .work_text a{
+    color: #D97A06;
+}
+.work_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    color: #656773;
+    margin-top: 8px;
+    width: 303px;
+}
+/* ======================================================
+                Work Part CSS End Here
+====================================================== */
+
+/* ======================================================
+                Project Part CSS Start Here
+====================================================== */
+#project{
+    padding: 128px 0;
+}
+.pro_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pro_head .btn .btn_price{
+    color: #282938;
+}
+.pro_head .btn .btn_price i{
+    color: #282938;
+}
+.pro_img_wrap{
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pro_left{
+    width: 843px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.pro_left:hover .pro_overlay{
+    left: 0;
+}
+
+.pro_left img{
+    width: 100%;
+    height: 100%;
+}
+.pro_overlay{
+    position: absolute;
+    left: -396px;
+    top: 0;
+    height: 100%;
+    width: 396px;
+    background: linear-gradient(rgba(28, 30, 83, 0.42),#2B1C53);
+    padding-left: 48px;
+    padding-bottom: 76px;
+    display: flex;
+    align-items: end;
+    transition: all linear 0.3s;
+}
+.pro_overlay .overlay_text h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 36px;
+    color: #fff;
+    width: 313px;
+}
+.pro_overlay .overlay_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    color: #fff;
+    margin-top: 16px;
+    width: 293px;
+}
+.pro_overlay .overlay_text .btn{
+    margin-top: 40px;
+}
+.pro_overlay .overlay_text .btn .btn_price{
+    color: #FCD980;
+}
+.pro_overlay .overlay_text .btn .btn_price i{
+    color: #FCD980;
+}
+
+.mgap{
+    margin-top: 32px;
+}
+.pro_img1{
+    width: 405px;
+    height: 284px;
+    position: relative;
+    overflow: hidden;
+}
+.pro_img1 img{
+    width: 100%;
+    height: 100%;
+}
+.pro_img1:hover .pro_overlay1{
+    bottom:0;
+}
+.pro_overlay1{
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(28, 30, 83, 0.42),#2B1C53);
+    padding-left: 56px;
+    padding-bottom: 45px;
+    display: flex;
+    align-items: end;
+    transition: all linear 0.3s;
+}
+.pro_overlay1 .overlay_text h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 36px;
+    color: #fff;
+    width: 280px;
+}
+.pro_overlay1 .overlay_text .btn .btn_price{
+    color: #FCD980;
+    margin-top: 10px;
+}
+.pro_overlay1 .overlay_text .btn .btn_price i{
+    color: #FCD980;
+}
+/* ======================================================
+                Project Part CSS End Here
+====================================================== */
+
+/* ======================================================
+                Header Part CSS Start Here
+====================================================== */
+#feature{
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+.fea_head{
+    text-align: center;
+}
+.fea_head h2{
+    width: 630px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.feature_wrap{
+    margin-top: 48px;
+}
+.feature_item{
+    width: 405px;
+    height: 316px;
+    padding-top: 58px;
+    padding-left: 48px;
+    background: #fff;
+    transition: all linear 0.3s;
+}
+.fea_icon i{
+    font-size: 28px;
+    color: #2405F2;
+    transition: all linear 0.3s;
+}
+.feature_item:hover .fea_icon i{
+    color: #D97A06;
+}
+.feature_item:hover{
+    transform: translateY(-15px);
+}
+.fea_text a{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 36px;
+    color: #282938;
+    margin-top: 22px;
+    transition: all linear 0.2s;
+}
+.feature_item:hover .fea_text a{
+    color:#D97A06;
+}
+.fea_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    color: #656773;
+    margin-top: 12px;
+    width: 324px;
+}
+.feature_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 32px;
+}
+/* ======================================================
+                Header Part CSS End Here
+====================================================== */
+
+/* ======================================================
+                CLient Part CSS Start Here
+====================================================== */
+#client{
+    padding: 128px 0;
+    background: #F9FBFD;
+}
+.client_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.client_head h2{
+    width: 327px;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 56px;
+    color: #282938;
+}
+.client_head p{
+    width: 327px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    color: #676873;
+    margin-top: 16px;
+}
+.client_text p{
+    width: 843px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 48px;
+    color: #282938;
+}
+.comment{
+    display: flex;
+    column-gap: 14px;
+    align-items: center;
+}
+.comment .com_img{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.comment .com_img img{
+    width: 100%;
+   object-position: top;
+   transform: scale(1.15);
+}
+.com_text .name{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 32px;
+    color: #282938;
+}
+.com_text p{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    color: #282938;
+    margin-top: -4px;
+}
+.com_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.com_slide{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+.com_slide .right{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.2s;
+    cursor: pointer;
+}
+.com_slide .right:hover{
+    background: #2405F2;
+}
+.com_slide .right i{
+    font-size: 20px;
+    color: #282938;
+    transition: all linear 0.3s;
+}
+.com_slide .left{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+.com_slide .left i{ 
+    font-size: 20px;
+    color: #282938;
+    transition: all linear 0.3s;
+}
+.com_slide .right:hover i{
+    color: #fff;
+}
+.com_slide .left:hover{
+    background: #2405F2;
+}
+.com_slide .left:hover i{
+    color: #fff;
+}
+
+/* ======================================================
+                CLient Part CSS End Here
+====================================================== */
+
+
+/* ======================================================
+                FAQ's Part CSS Start Here
+====================================================== */
+#faq{
+    padding: 128px 0;
+}
+.left_faq .faq_head h3{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 56px;
+    color: #282938;
+    width: 328px;
+}
+.faq_head a{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 32px;
+    color: #2405F2;
+    margin-top: 16px;
+}
+.faq_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.right_faq{
+    width: 820px;
+}
+.question{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.q_item_text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.q_num h3{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 36px;
+    color: #2405F2;
+}
+.q_item_text h3{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 36px ;
+    color: #282938;
+}
+.q_item_text a{
+    font-size: 16px;
+    color: #282938;
+}
+.q_item{
+    width: 90%;
+}
+.q_item p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 32px ;
+    color: #444552;
+    margin-top: 16px;
+    width: 626px;
+}
+.q_num{
+    width: 10%;
+}
+.q_open{
+    position: relative;
+    padding-bottom: 48px;
+}
+.q_open::after, .q_close::after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #ECECF1;
+}
+.q_close{
+    padding: 32px 0;
+    position: relative;
+}
+.q_alt{
+    padding-top: 32px;
+}
+/* ======================================================
+                FAQ's Part CSS End Here
+====================================================== */
+
+/* ======================================================
+                Inquiry Part CSS Start Here
+====================================================== */
+#inquiry{
+    padding-bottom:  128px;
+}
+.ing_wrap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inq_left_wrap{
+    width:656;
+    height: 691px;
+
+    background: url(../images/Inquiry_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.inq_left{
+    width: 656px;
+    height: 691px;
+    background: rgba(28, 30, 83, 0.5);
+    padding-left: 96px;
+    padding-top: 96px;
+}
+.inq_left h2{
+    font-size: 54px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 74px ;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    width: 464px;
+}
+.inq_left p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #FFFFFF;
+    width: 464px;
+}
+.inq_right{
+    width: 624px;
+    height: 691px;
+    background: #1C1E53;
+    padding-left: 96px;
+    padding-top: 96px;
+    padding-right: 96px;
+}
+.inq_right_text h3{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 48px ;
+    color: #FFFFFF;
+}
+.inq_right_text p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+.inq_right form input{
+    padding: 18px 32px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.309);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #FFFFFF;
+    background: transparent;
+    margin-bottom: 16px;
+}
+.inq_right form input::placeholder{
+    color: #F4F6FC;
+}
+/* ======================================================
+                Inquiry Part CSS End Here
+====================================================== */
+
+/* ======================================================
+                Blog Part CSS Start Here
+====================================================== */
+#blog{
+    padding-bottom: 128px;
+    
+}
+.card_blog .blog_img{
+    width: 100%;
+    height: 285px;
+}
+.card_wrap{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card_blog .blog_img img{
+    width: 100%;
+    height: 100%;
+}
+.card_blog{
+    width: 405px;
+}
+.blog_card_text h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #282938;
+    margin-top: 35px;
+}
+.blog_card_text h2{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 36px ;
+    color: #282938;
+    margin-top: 16px;
+    width: 405px;
+}
+.blog_card_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #696974;
+    margin-top: 16px;
+    width: 405px;
+}
+.blg_btn_gap{
+    margin-top: 28px;
+}
+.blg_btn_gap .btn_price{
+    color: #282938;
+    transition: all linear 0.2s;
+}
+.blg_btn_gap .btn_price i{
+    color: #282938;
+    transition: all linear 0.2s;
+}
+.blg_btn_gap .btn_price:hover{
+    color: #2405F2;
+}
+.blg_btn_gap:hover .btn_price i{
+    color: #2405F2;
+}
+/* ======================================================
+                Blog Part CSS End Here
+====================================================== */
+
+/* ======================================================
+                Talk Part CSS Start Here
+====================================================== */
+#talk{
+    padding-top: 95px;
+    background: #1C1E53;
+}
+.talk_flex{
+    width: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.talk_left_text p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #fff;
+    margin-top: 22px;
+    width: 400px;
+}
+.talk_right h2{
+    color: #fff !important;
+    width: 400px;
+}
+.talk_right p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #fff;
+    margin-top: 14px;
+    width: 400px;
+}
+.icon_talk{
+    margin-top: 28px;
+    display: flex;
+    column-gap: 26px;
+}
+.icon_talk li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.icon_talk li a{
+    color: #fff;
+    font-size: 18px;
+    transition: all linear 0.2s;
+}
+.icon_talk li a:hover{
+    color: #D97A06;
+}
+.talk_overlay{
+    width: 517px;
+    height: 95px;
+    background: #FCD980;
+    padding-top: 17px;
+    padding-left: 37px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+.talk_ov_right{
+    width: 133px;
+}
+.talk_ov_left{
+    width: 181px;
+}
+.talk_ov_left h3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 32px ;
+    color: #282938;
+}
+.talk_ov_left a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #282938;
+    transition: all linear 0.3s;
+}
+.talk_ov_left a:hover{
+    color: #2405F2;
+}
+.talk_ov_right a:hover{
+    color: #2405F2;
+}
+.talk_ov_right h3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 32px ;
+    color: #282938;
+}
+.talk_ov_right a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #282938;
+    transition: all linear 0.3s;
+}
+.inq_btn{
+    margin-top: 26px;
+}
+.inq_btn .btn_work{
+    width: 100%;
+    text-align: center;
+    border-radius: 41px;
+
+}
+.inq_btn .btn_price{
+    margin-top: 25px;
+}
+.inq_btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* ======================================================
+                Talk Part CSS End Here
+====================================================== */
+
+/* ======================================================
+                Footer Part CSS Start Here
+====================================================== */
+
+.foot_nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.foot_left h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #282938;
+}
+.foot_right{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+}
+.foot_right li a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #282938;
+    transition: all linear 0.2s;
+}
+.foot_right li a:hover{
+    color: #D97A06;
+}
+.foot_part{
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+/* ======================================================
+                Footer Part CSS End Here
+====================================================== */
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================================
+                Work Part CSS Start Here
+====================================================== */
+/* ======================================================
+                Work Part CSS End Here
+====================================================== */
+/* ======================================================
+                Work Part CSS Start Here
+====================================================== */
+/* ======================================================
+                Work Part CSS End Here
+====================================================== */
+
+
+
+
